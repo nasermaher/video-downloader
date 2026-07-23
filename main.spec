@@ -1,7 +1,7 @@
 # -*- mode: python ; coding: utf-8 -*-
 # ملف تحزيم PyInstaller لبرنامج تحميل الفيديوهات.
 # التشغيل: pyinstaller main.spec
-# الناتج: dist/YoutubeDownloader.exe (ملف واحد مستقل)
+# الناتج: dist/VideoDownloader.exe (ملف واحد مستقل)
 #
 # ملاحظة مهمة: لو عايز البرنامج المجمّع يشتغل من غير ما يحتاج تثبيت ffmpeg على جهاز
 # المستخدم، حمّل نسخة ffmpeg.exe الثابتة (static build) وحطها في نفس مجلد الـ exe
@@ -33,7 +33,7 @@ exe = EXE(
     a.zipfiles,
     a.datas,
     [],
-    name='YoutubeDownloader',
+    name='VideoDownloader',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
