@@ -1,4 +1,4 @@
-"""نقطة تشغيل برنامج تحميل فيديوهات يوتيوب."""
+"""نقطة تشغيل برنامج تحميل فيديوهات."""
 import sys
 
 from PyQt5.QtWidgets import QApplication
@@ -10,7 +10,7 @@ from core.logger import setup_logger
 def main():
     setup_logger()
     app = QApplication(sys.argv)
-    app.setApplicationName("YouTube Downloader")
+    app.setApplicationName("Video Downloader")
 
     window = MainWindow()
     window.show()
