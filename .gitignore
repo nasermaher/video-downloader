@@ -1,0 +1,21 @@
+# بيئة بايثون الافتراضية والـ IDE
+.venv/
+venv/
+.idea/
+__pycache__/
+*.pyc
+
+# اختبارات
+.pytest_cache/
+
+# بيانات المستخدم الفعلية أثناء التطوير (تتخزن في %APPDATA% بعد التحزيم)
+config/
+logs/
+
+# نواتج التحزيم بـ PyInstaller
+build/
+dist/
+
+# ملفات نظام التشغيل
+.DS_Store
+Thumbs.db
