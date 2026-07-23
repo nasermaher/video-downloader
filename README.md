@@ -92,9 +92,9 @@ pip install -r requirements-dev.txt
 pyinstaller main.spec
 ```
 
-الناتج هيكون في `dist/YoutubeDownloader.exe`. لو عايز البرنامج يشتغل بدون ما يحتاج المستخدم يثبت ffmpeg بنفسه، حمّل نسخة [ffmpeg](https://www.gyan.dev/ffmpeg/builds/) الثابتة (static build) وحط `ffmpeg.exe` في نفس مجلد الـ exe الناتج — البرنامج بيدور عليه هناك تلقائيًا.
+الناتج هيكون في `dist/VideoDownloader.exe`. لو عايز البرنامج يشتغل بدون ما يحتاج المستخدم يثبت ffmpeg بنفسه، حمّل نسخة [ffmpeg](https://www.gyan.dev/ffmpeg/builds/) الثابتة (static build) وحط `ffmpeg.exe` في نفس مجلد الـ exe الناتج — البرنامج بيدور عليه هناك تلقائيًا.
 
-الإعدادات والسجلات بتتخزن في `%APPDATA%\YoutubeDownloader` بعد التحزيم.
+الإعدادات والسجلات بتتخزن في `%APPDATA%\VideoDownloader` بعد التحزيم.
 
 ## ملاحظة قانونية
 
